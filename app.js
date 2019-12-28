@@ -9,7 +9,7 @@ const port = 3000;
 app.use(express.json());
 // Needed to make cross-origin http request
 app.use(cors({
-  origin: 'chrome-extension://pbnlbbcngmdlfjgbbccbdaanighaleab'
+  origin: '*'
 }));
 
 app.get('/', (req, res) => res.send('Amazon Music - Data Exporter'));
