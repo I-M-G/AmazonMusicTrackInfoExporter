@@ -1,0 +1,16 @@
+{
+  "name": "amazonmusicextension",
+  "version": "0.0.1",
+  "description": "Getting song data from Amazon Music using a Chrome Extension.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian I-M-G Gwillim",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {}
+}

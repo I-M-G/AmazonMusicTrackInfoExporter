@@ -1,0 +1,21 @@
+{
+    "name": "Amazon Music Data for Streaming",
+    "version": "1.0",
+    "description": "Getting song and artist information through the extension for use in streaming overlay.",
+    "permissions": ["activeTab", "background", "tabs"],
+    "content_scripts": [
+      {
+        "matches": [
+          "https://music.amazon.com/*"
+        ],
+        "run_at": "document_idle",
+        "js": ["contentScript.js"]
+      }
+    ],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "browser_action": {},
+    "manifest_version": 2
+  }
