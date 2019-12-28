@@ -1,6 +1,6 @@
 {
   "name": "amazonmusicextension",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Getting song data from Amazon Music using a Chrome Extension.",
   "main": "app.js",
   "scripts": {
