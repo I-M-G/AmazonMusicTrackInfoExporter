@@ -28,7 +28,7 @@ app.listen(port, () => console.log(`App listening on port ${port}!`));
 
 // Write track info from Chrome Extension to file
 function writeDataToFile(data, filename) {
-  let text = `${data.songName} - ${data.artistName}`;
+  let text = `${data.songName} - ${data.artistName} || `;
 
   fs.writeFile(`./logs/${filename}.txt`, text, (error) => {
     if (error) console.error(error);
